@@ -9,14 +9,15 @@ More about this implementation can be found here:
 https://tylertriggs.wordpress.com/2015/03/29/six-degrees-of-marky-mark/
 
 #Sample Usage:
-./marky-mark.rb "Pauly Shore"
-OK... drum roll please...
-Path 1: Degrees: 2
-Actor: Mark Wahlberg
-Movie: Max Payne
-Actor: Ludacris
-Movie: The Wash
-Actor: Pauly Shore
+  ./marky-mark.rb "Pauly Shore"
+
+  OK... drum roll please...
+  Path 1: Degrees: 2
+  Actor: Mark Wahlberg
+  Movie: Max Payne
+  Actor: Ludacris
+  Movie: The Wash
+  Actor: Pauly Shore
 
 #Note:
 The algorithm uses a pre-defined database of movies, actors, and a joining table called "cast_members.csv" but it could be extended to a more comprehensive database.
