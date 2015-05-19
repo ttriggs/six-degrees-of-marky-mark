@@ -82,7 +82,11 @@ end
 
 # setup initial node:
 target_actor_id = get_actor_id_from_name(target_actor)
-nodes = [ {conn_actors: [target_actor_id], conn_movies: [], degrees: 0 } ]
+initial_node = { conn_actors: [target_actor_id],
+                 conn_movies: [],
+                 degrees: 0
+               }
+nodes = [ initial_node ]
 
 #########
 # BEGIN #
